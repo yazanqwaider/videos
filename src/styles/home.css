@@ -1,0 +1,15 @@
+.thumbnail-video {
+    margin: 5px 0px;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.thumbnail-video:hover {
+    cursor: pointer;
+    border: 2px solid #537789;
+}
+
+.thumbnail-video.active {
+    border: 2px solid #537789;
+}

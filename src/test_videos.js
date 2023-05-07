@@ -1,5 +1,6 @@
 const videos = [
   {
+    id: 1,
     title: "Big Buck Bunny",
     subtitle: "By Blender Foundation",
     description:
@@ -9,6 +10,7 @@ const videos = [
     thumb: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
   },
   {
+    id: 2,
     title: "Elephant Dream",
     subtitle: "By Blender Foundation",
     description: "The first Blender Open Movie from 2006",
@@ -17,6 +19,7 @@ const videos = [
     thumb: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg",
   },
   {
+    id: 3,
     title: "For Bigger Blazes",
     subtitle: "By Google",
     description:
@@ -26,6 +29,7 @@ const videos = [
     thumb: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg",
   },
   {
+    id: 4,
     title: "For Bigger Escape",
     subtitle: "By Google",
     description:
@@ -35,6 +39,7 @@ const videos = [
     thumb: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg",
   },
   {
+    id: 5,
     title: "For Bigger Fun",
     subtitle: "By Google",
     description:
@@ -44,6 +49,7 @@ const videos = [
     thumb: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg",
   },
   {
+    id: 6,
     title: "For Bigger Joyrides",
     subtitle: "By Google",
     description:
@@ -53,6 +59,7 @@ const videos = [
     thumb: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg",
   },
   {
+    id: 7,
     title: "For Bigger Meltdowns",
     subtitle: "By Google",
     description:
@@ -62,6 +69,7 @@ const videos = [
     thumb: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg",
   },
   {
+    id: 8,
     title: "Sintel",
     subtitle: "By Blender Foundation",
     description:
@@ -71,6 +79,7 @@ const videos = [
     thumb: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg",
   },
   {
+    id: 9,
     title: "Subaru Outback On Street And Dirt",
     subtitle: "By Garage419",
 
@@ -81,6 +90,7 @@ const videos = [
     thumb: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg",
   },
   {
+    id: 10,
     title: "Tears of Steel",
     subtitle: "By Blender Foundation",
 
