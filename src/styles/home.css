@@ -1,15 +1,68 @@
 .thumbnail-video {
     margin: 5px 0px;
     border: 2px solid transparent;
-    border-radius: 7px;
+    border-radius: 14px;
     overflow: hidden;
 }
 
 .thumbnail-video:hover {
     cursor: pointer;
-    border: 2px solid #537789;
+    border: 2px solid #919191;
 }
 
 .thumbnail-video.active {
-    border: 2px solid #537789;
+    border: 2px solid #919191;
+}
+
+.video-js .vjs-play-control {
+    cursor: pointer;
+    background: #d7d7d782;
+    position: absolute;
+    border-radius: 50%;
+    top: -234px;
+    right: 345px;
+    height: 115px;
+    width: 115px;
+    font-size: 31px;
+}
+
+.video-js .vjs-play-control > .vjs-icon-placeholder:before {
+    line-height: 115px;
+}
+
+.vjs-big-play-button {
+    top: 39% !important;
+    left: 48% !important;
+    border: 0px !important;
+    background: #d7d7d782 !important;
+    border-radius: 85px !important;
+    width: 115px !important;
+    height: 115px !important;
+    font-size: 31px !important;
+}
+
+.vjs-big-play-button span {
+    line-height: 112px !important;
+    font-size: 61px !important;
+    text-align: center !important;
+}
+
+aside {
+    padding: 5px;
+}
+
+aside::-webkit-scrollbar {
+    width: 3px;
+}
+  
+aside::-webkit-scrollbar-track {
+    background: #5377894f;
+}
+  
+aside::-webkit-scrollbar-thumb {
+    background: #537789;
+}
+
+aside::-webkit-scrollbar-thumb:hover {
+    background: #4a7b94;
 }
